@@ -34,7 +34,7 @@ Jest to rozszerzenie do przeglądarki Chrome. Wszystkie rozszerzenia testuję ty
       7. Kliknij przycisk "Kontynuuj".
       8. Zostaniesz przeniesiony na stronę Allegro z pytaniem czy chcesz powiązać swoje konto z aplikacją  
       ![Alt text](assets/allegro_account_linking_question_allegro-api-disputes,allegro-api-messaging,allegro-api-profile-read.png)
-      9. Kliknij przycisk "Tak, powiąż konto". Jeśli chiałbyś usunąć powiązanie aplikacji z kontem zrobisz to na stronie Allegro - Moje Allegro - Konto - Bezpieczeństwo - [Powiązane aplikacje](https://allegro.pl/moje-allegro/moje-konto/powiazane-aplikacje)
+      9. Kliknij przycisk "Tak, powiąż". Jeśli chiałbyś usunąć powiązanie aplikacji z kontem zrobisz to na stronie Allegro - Moje Allegro - Konto - Bezpieczeństwo - [Powiązane aplikacje](https://allegro.pl/moje-allegro/moje-konto/powiazane-aplikacje)
       10. Na stronie opcji rozszerzenia pojawi się komunikat o zalogowaniu wraz z nazwą użytkownika.  
     </details>
 7. Jeżeli miałeś otwartą stronę "Sales Center", odśwież ją celem załadowania rozszerzenia. Ikona rozszerzenia zmieni się na zieloną, co sygnalizuje włączenie automatycznego sprawdzania wiadomości co minutę.
@@ -43,12 +43,11 @@ To wszystko. Rozszerzenie będzie sprawdzać co minutę czy są jakieś nowe wia
 
 W przypadku dyskusji nie istnieje takie coś jak oznaczenie jej jako przeczytanej, dlatego rozszerzenie implementuje taką funkcjonalność bazując na liczbie wiadomości w dyskusji i tym czy ostatnia wiadomość pochodzi od ciebie czy od klienta. W momencie wejścia na stronę dyskusji następuje zapamiętanie liczby wiadomości w dyskusji i zostaje ona oznaczona jako przeczytana, po pojawieniu się nowej wiadomości (z wyjątkiem twojej odpowiedzi) ponownie otrzymasz powiadomienie. Stan dyskusji zapisywany jest tylko na danym komputerze na którym otwarto stronę z dyskusją. Jeżeli korzystasz z więcej niż jednego komputera, oznaczenie dyskusji jako przeczytanej na jednym komputerze nie spowoduje że na pozostałych też to nastąpi - w tym celu albo udziel odpowiedzi albo otwórz stronę na każdym z tych komputerów. Rozszerzenie uznaje wiadomość za nową gdy dyskusja ma status "w toku" a wiadomość w dyskusji jest wiadomością od klienta, pracownika Allegro lub automatyczną wiadomością od Allegro.
 
-Rozszerzenie sprawdza wiadomości niezależnie od tego czy masz otwartą stronę Sales Center czy nie. W przypadku gdy chcesz otrzymywać informacje o wiadomościach również wtedy gdy nie masz otwartej strony Sales Center, zaznacz w opcjach rozszerzenia checkbox "Włącz powiadomienia systemowe", wtedy powiadomienie otrzymasz w centrum powiadomień koło zegarka (jeśli nie masz otwartej żadnej karty Sales Center). Ewentualne błędy rozszerzenia mogą być wyświetlone w ten sposób niezależnie od tego ustawienia - w pierwszej kolejności jednak będzie sprawdzone czy jest owwarta strona Sales Center i czy jest ona aktywna (na pierwszym planie).
+Rozszerzenie sprawdza wiadomości niezależnie od tego czy masz otwartą stronę Sales Center czy nie. W przypadku gdy chcesz otrzymywać informacje o wiadomościach również wtedy gdy nie masz otwartej strony Sales Center, zaznacz w opcjach rozszerzenia checkbox "Włącz powiadomienia systemowe", wtedy powiadomienie otrzymasz w centrum powiadomień koło zegarka (jeśli nie masz otwartej żadnej karty Sales Center). Ewentualne błędy rozszerzenia mogą być wyświetlone w ten sposób niezależnie od tego ustawienia - w pierwszej kolejności jednak będzie sprawdzone czy jest otwarta strona Sales Center i czy jest ona aktywna (na pierwszym planie).
 
 Jeżeli chcesz sprawdzić wiadomości szybciej, nie czekając na dany cykl minutowy, wejdź na stronę główną Sales Center (https://salescenter.allegro.com/my-sales), wyzwoli to natychmiastowe sprawdzanie wiadomości (i ustawi cykl na nowo od kolejnej minuty).
 
 Pamiętaj - nie polegaj tylko na tym rozszerzeniu. Sales Center jest w trakcie ciągłych zmian konstrukcyjnych, warto również sprawdzać maila (w szczególności utworzyć filtr w poczcie na wiadomości i dyskusje) oraz sprawdzać co jakiś czas centrum wiadomości i dyskusji albo mieć otwartą kartę strony głównej Allegro.pl (nie w domenie salescenter.com) gdzie ikony wiadomości i powiadomień są wyświetlane na górze strony po staremu.
-
 
 ***
 Jeżeli napotkasz jakieś błędy w trakcie działania aplikacji, masz jakieś pytania, sugestie, problemy z obsługą, daj znać w sekcji "Discussions".
