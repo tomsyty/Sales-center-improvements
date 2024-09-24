@@ -1,2 +1,5 @@
 [2024-09-23] v1.0.1:
 - Allegro dodało już ikonę powiadomień o wiadomościach na górze strony, jednak nie pokazuje tej informacji w menu bocznym, poprawiono kod rozszerzenia aby podświetlało ikonę w menu bocznym a nie nowo dodaną na górze strony
+[2024-09-25] v1.0.2:
+- Dodano obsługę licznika wiadomości dla ikony w menu bocznym (bazując na liczniku wiadomości ikony na górze strony - kopiuje go do ikony w menu bocznym)
+- Drobne usprawnienia kodu (poprawka obsługi błędów)
