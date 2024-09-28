@@ -1,5 +1,9 @@
 ## Usprawnienia Sales Center
-To rozszerzenie pozwala na wyświetlanie informacji o wiadomościach i wiadomościach w dyskusjach na stronie Sales Center, czego chwilowo nie ma na tej stronie, ale ma być dodane za jakiś czas. 
+To rozszerzenie pozwala na wyświetlanie informacji o wiadomościach i wiadomościach w dyskusjach na stronie Sales Center, ~~czego chwilowo nie ma na tej stronie, ale ma być dodane za jakiś czas~~.
+
+Funkcjonalność wyświetlania powiadomień o wiadomościach i wiadomościach w dyskusjach została już dodana do strony Sales Center, tak więc nie ma potrzeby korzystania z tego rozszerzenia. Jedyny sens korzystania z niego obecnie to możliwość otrzymywania powiadomień także wtedy gdy strona Sales Center nie jest otwarta.
+
+Zostało wydane dodatkowe rozszerzenie [Usprawnienia Sales Center Lite](https://github.com/tomsyty/Sales-center-improvements-lite) które odpowiada tylko za wyświetlanie licznika wiadomości i wiadomości w dyskusjach przy ikonach w menu bocznym (obecnie wyświetlane jest to tylko przy ikonie na górnej belce), bez wyróżniania ikony podświetleniem na czerwono ani sprawdzania wiadomości w tle oraz bez konieczności rejestracji aplikacji.
 
 Jest to rozszerzenie do przeglądarki Chrome. Wszystkie rozszerzenia testuję tylko dla systemu Windows 10 i najnowszej wersji przeglądarki.
 
