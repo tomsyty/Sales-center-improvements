@@ -3,3 +3,5 @@
 [2024-09-25] v1.0.2:
 - Dodano obsługę licznika wiadomości dla ikony w menu bocznym (bazując na liczniku wiadomości ikony na górze strony - kopiuje go do ikony w menu bocznym)
 - Drobne usprawnienia kodu (poprawka obsługi błędów)
+[2024-09-28] v1.0.3:
+- Dodano obsługę licznika dyskusji dla ikony w menu bocznym (bazując na liczniku dyskusji ikony na górze strony - kopiuje go do ikony w menu bocznym)
